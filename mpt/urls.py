@@ -20,6 +20,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-  #  path('gallery/', include('art_space'))
     path('gallery/', include('art_space.urls')),
 ]
