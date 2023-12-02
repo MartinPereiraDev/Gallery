@@ -27,3 +27,5 @@ class GalleryListPost(generics.ListCreateAPIView):
     """
     queryset = Gallery.objects.all()
     serializer_class    = GallerySerializer
+
+#class GalleryDowlnload(generics.)
