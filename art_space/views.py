@@ -25,7 +25,7 @@ class GalleryListPost(generics.ListCreateAPIView):
     This view lists gallery and create Post  
     
     """
-    queryset = Gallery.objects.all()
+    queryset = Gallery.objects.all() 
     serializer_class    = GallerySerializer
 
 #class GalleryDowlnload(generics.)
