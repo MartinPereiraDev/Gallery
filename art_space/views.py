@@ -1,6 +1,9 @@
 from django.shortcuts import render
+from django.http import FileResponse
+
 
 from rest_framework import viewsets, generics
+from rest_framework.views import APIView
 from rest_framework.parsers import MultiPartParser
 
 from .models import Gallery
@@ -28,4 +31,19 @@ class GalleryListPost(generics.ListCreateAPIView):
     queryset = Gallery.objects.all() 
     serializer_class    = GallerySerializer
 
-#class GalleryDowlnload(generics.)
+
+# class gallery download file 
+class GalleryDownload(APIView):
+    """
+        this view is for download file work with pk of gallery 
+    """
+    def get(self, request, gallery_id):
+        #query
+        art_gallery_sign_obj = Gallery.objects.get(id=gallery_id)
+        #path
+        art_gallery_sign_path = art_gallery_sign_obj.work.path
+        #open file
+        response = FileResponse(open(art_gallery_sign_path, 'rb'))
+    
+        response['Content-Disposition'] = f'attachment; filename="{art_gallery_sign_obj.work}"'
+        return response
