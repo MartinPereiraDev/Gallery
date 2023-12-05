@@ -47,3 +47,4 @@ class GalleryDownload(APIView):
     
         response['Content-Disposition'] = f'attachment; filename="{art_gallery_sign_obj.work}"'
         return response
+
