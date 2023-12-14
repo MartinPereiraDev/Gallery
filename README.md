@@ -1,3 +1,5 @@
 # DJango-rest
 proyect with django and rest framework
-in this moment create app art_space for load and download files 
+create app art_space for load and download files
+The files up only 'jpg' and 'png'
+
