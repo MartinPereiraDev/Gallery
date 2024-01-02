@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.contrib.auth.models import User, Group
 
 from .models import Employee
 
@@ -23,3 +24,6 @@ class GalleryAdmin(admin.ModelAdmin):
     
 
 admin.site.register(Employee, GalleryAdmin)
+
+admin.site.unregister(User)
+admin.site.unregister(Group)
