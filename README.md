@@ -13,7 +13,7 @@ with many apps
 - [Support](#support)
 
 ## Installation
-´Python 3.10.11 ´
+<b> Python 3.10.1 </b> 
 <br>
 Django==4.1.7
 <br>
@@ -24,7 +24,7 @@ if have questions in project search
 file requirements.txt 
 <br>
 in bash use:
-pip install -r requirements.txt  # Install dependencies from the requirements.txt
+<b> pip install -r requirements.txt </b>  # Install dependencies from the requirements.txt
 
 ## Contributing
 if you have contributing.
