@@ -13,7 +13,7 @@ with many apps
 
 
 ## Installation
-'Python 3.10.11'
+´Python 3.10.11 ´
 <br>
 Django==4.1.7
 <br>
@@ -31,11 +31,11 @@ if you have contributing.
 <br> 
 Fork the repository. 
 <br>
-Create a new branch: git checkout -b feature-name.
+Create a new branch: ´ git checkout -b feature-name´.
 <br>
-Commit your changes: git commit -am 'Add new feature'.
+Commit your changes: ´git commit -am  Add new feature´.
 <br>
-Push to the branch: git push origin feature-name.
+Push to the branch: ´git push origin feature-name´.
 <br>
 Submit a pull request.
 
@@ -53,7 +53,7 @@ for this tasks
 
 ## License
 
-
+This project is licensed 
 
 ## Support
 if you have any questions or issues, feel free to reach out to [martinpereira1976@hotmail.com]
