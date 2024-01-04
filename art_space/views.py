@@ -14,7 +14,8 @@ from .serializers import GallerySerializer
 class GalleryPut(viewsets.ModelViewSet):
     """
         This endpoints show only one element of Gallery.
-        RETRIEVE and PUT.    
+        RETRIEVE and PUT.
+        your can modify item bellow with put    
     """
     queryset = Gallery.objects.all()
     serializer_class = GallerySerializer
@@ -25,7 +26,9 @@ class GalleryPut(viewsets.ModelViewSet):
 # class gallery Post, Put 
 class GalleryListPost(generics.ListCreateAPIView):
     """
-    This view lists gallery and create Post  
+    This view lists all gallery
+    bellow you can create Post 
+
     
     """
     queryset = Gallery.objects.all() 
@@ -36,6 +39,7 @@ class GalleryListPost(generics.ListCreateAPIView):
 class GalleryDownload(APIView):
     """
         this view is for download file work with pk of gallery 
+        need pk 
     """
     def get(self, request, gallery_id):
         #query

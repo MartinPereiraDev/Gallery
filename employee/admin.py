@@ -25,5 +25,5 @@ class GalleryAdmin(admin.ModelAdmin):
 
 admin.site.register(Employee, GalleryAdmin)
 
-admin.site.unregister(User)
+#admin.site.unregister(User)
 admin.site.unregister(Group)
