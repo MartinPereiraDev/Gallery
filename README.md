@@ -6,11 +6,11 @@ with many apps
 
 - [Installation](#installation)
 - [Contributing](#contributing)
-- [Support](#support)
-- [art_space](#art_space)
-- [employee](#employee)
-- [License](#license)
 
+- [Apps](#apps)
+
+- [License](#license)
+- [Support](#support)
 
 ## Installation
 ´Python 3.10.11 ´
@@ -39,6 +39,7 @@ Push to the branch:  <b> git push origin feature-name </b>.
 <br>
 Submit a pull request.
 
+---------------------------------------------------------------------------------------------------------
 # Apps 
 
 ## art_space
@@ -51,6 +52,8 @@ The files up only 'jpg' and 'png'
 Employee is the app, for manage of employee the gallery, use of 'admin-django' personalized
 for this tasks 
 
+
+----------------------------------------------------------------------------------------------------------
 ## License
 
 This project open source
