@@ -31,11 +31,11 @@ if you have contributing.
 <br> 
 Fork the repository. 
 <br>
-Create a new branch: ´ git checkout -b feature-name´.
+Create a new branch: <b> git checkout -b feature-name </b>.
 <br>
-Commit your changes: ´git commit -am  Add new feature´.
+Commit your changes: <b> git commit -am  Add new feature </b>.
 <br>
-Push to the branch: ´git push origin feature-name´.
+Push to the branch:  <b> git push origin feature-name </b>.
 <br>
 Submit a pull request.
 
@@ -53,7 +53,7 @@ for this tasks
 
 ## License
 
-This project is licensed 
+This project open source
 
 ## Support
 if you have any questions or issues, feel free to reach out to [martinpereira1976@hotmail.com]
