@@ -5,10 +5,11 @@ with many apps
 ## Table of Contents
 
 - [Installation](#installation)
-- [License](#license)
+- [Contributing](#contributing)
 - [Support](#support)
 - [art_space](#art_space)
 - [employee](#employee)
+- [License](#license)
 
 
 ## Installation
@@ -25,6 +26,19 @@ file requirements.txt
 in bash use:
 pip install -r requirements.txt  # Install dependencies from the requirements.txt
 
+## Contributing
+if you have contributing.
+<br> 
+Fork the repository. 
+<br>
+Create a new branch: git checkout -b feature-name.
+<br>
+Commit your changes: git commit -am 'Add new feature'.
+<br>
+Push to the branch: git push origin feature-name.
+<br>
+Submit a pull request.
+
 # Apps 
 
 ## art_space
@@ -37,8 +51,13 @@ The files up only 'jpg' and 'png'
 Employee is the app, for manage of employee the gallery, use of 'admin-django' personalized
 for this tasks 
 
+## License
+
+
+
 ## Support
-if you have any questions or issues, feel free to reach out to [martinpereira1976@hotmail.com].
+if you have any questions or issues, feel free to reach out to [martinpereira1976@hotmail.com]
+<br>
 Linkedlin : https://www.linkedin.com/in/martin-pereira-developer/
 
 
